@@ -1,0 +1,15 @@
+{
+  "typeCheckingMode": "basic",
+  // These have been turned down to integrate pyright, but should be fixed
+  "reportGeneralTypeIssues": "warning",
+  "reportAttributeAccessIssue": "warning",
+  "reportOptionalCall": "warning",
+  "reportOptionalMemberAccess": "warning",
+  "reportOptionalOperand": "warning",
+  "reportOptionalSubscript": "warning",
+  // Types are inferred as NoValue, explicit type annotations are going to be needed
+  "reportArgumentType": "none",
+  "reportCallIssue": "none",
+  "reportIndexIssue": "none",
+  "reportOperatorIssue": "none",
+}

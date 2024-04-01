@@ -1546,7 +1546,7 @@ class SingleItemDecoder(object):
 
     def __call__(self, substrate, asn1Spec=None,
                  tagSet=None, length=None, state=stDecodeTag,
-                 decodeFun=None, substrateFun=None,
+                 decodeFun=None, substrateFun=None,  # pyright: ignore[reportRedeclaration] # Purposefully redeclaring if None
                  **options):
 
         allowEoo = options.pop('allowEoo', False)

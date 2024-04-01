@@ -7,6 +7,7 @@
 import sys
 import unittest
 
+from pyasn1.error import PyAsn1Error
 from tests.base import BaseTestCase
 
 from pyasn1.type import tag
