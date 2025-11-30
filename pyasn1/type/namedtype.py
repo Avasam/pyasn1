@@ -4,8 +4,6 @@
 # Copyright (c) 2005-2020, Ilya Etingof <etingof@gmail.com>
 # License: https://pyasn1.readthedocs.io/en/latest/license.html
 #
-import sys
-
 from pyasn1 import error
 from pyasn1.type import tag
 from pyasn1.type import tagmap
